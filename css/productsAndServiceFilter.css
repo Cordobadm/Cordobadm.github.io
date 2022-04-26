@@ -1,0 +1,94 @@
+#identificador {
+  margin-top: 12rem;
+}
+
+#identificador ol a {
+  text-decoration: none;
+  color: gray;
+  padding: 0px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#ultimo {
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#-texto-filtrar {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.form-select {
+  width: 15%;
+  float: right;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+}
+
+#produtos,
+#precio {
+  width: 130px;
+  height: 35px;
+  margin: 2rem 1rem 2rem 0px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#servicio,
+#precios {
+  width: 130;
+  height: 35px;
+  margin: 2rem 1rem 2rem 0px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#cardService {
+  text-align: center;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+}
+
+/* Cards product and service */
+.item-rounded {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.item-rounded:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(-15px);
+}
+
+.item-rounded h4 {
+  font-size: 15px;
+  margin: 1px;
+}
+
+.item-rounded h6 {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.item-rounded h3 {
+  display: none;
+}
+
+.item-rounded img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 4px solid #343434;
+}
+
+
+/* PRODUCTOS */
+
+.content-all-products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,54 @@
+.content-products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-product {
+  position: relative;
+  text-align: -webkit-center;
+  padding: 10px;
+  
+}
+
+.card-product-content:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-product .card-product-content{
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.card-product .card-image {
+  height: 100px;
+  width: 100px;
+  padding: 3px;
+}
+
+
+.card-product img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-product .card-product-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  border-top: 3px solid black;
+}
+
+.card-product .card-stock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}

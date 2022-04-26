@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "nombre":"MAKE UP - NOVIAS",
+    "rubro": "MAKE UP",
+    "precio": 15000,
+    "stock":2,
+    "img": "../img/servicios/perfilado.png"
+  }, {
+    "id": "2",
+    "nombre":"PEINADO - NOVIAS",
+    "rubro": "PEINADO",
+    "precio": 6000,
+    "stock":2,
+    "img": "../img/novedades/iocha.JPG"
+  }, {
+    "id": "3",
+    "nombre":"COMBO MAKEUP + PEINADO",
+    "rubro": "COMBOS",
+    "precio": 20000,
+    "stock":2,
+    "img": "../img/servicios/limpiezaFacial.jpg"
+  },{
+    "id": "5",
+    "nombre":"DEPILACION - COMBO PIERNAS",
+    "rubro": "DEPILACION",
+    "precio": 2467,
+    "stock":2,
+    "img": "../img/servicios/depilacion.png"
+  }, {
+    "id": "6",
+    "nombre":"LIFTING DE PESTAÑAS",
+    "rubro": "LIFTING",
+    "precio": 1505,
+    "stock":2,
+    "img": "../img/servicios/lifting.png"
+  }
+]

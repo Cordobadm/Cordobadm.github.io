@@ -1,0 +1,59 @@
+[
+  {
+    "id": "",
+    "nombre":"PERFILADO DE CEJAS",
+    "rubro": "LIFTING",
+    "precio": 1400,
+    "stock":2,
+    "img": "../img/servicios/perfilado.png"
+  }, {
+    "id": "b",
+    "nombre":"MASAJES DESCONTRACTURANTES",
+    "rubro": "MASAJES",
+    "precio": 1000,
+    "stock":2,
+    "img": "../img/servicios/masajes.png"
+  }, {
+    "id": "c",
+    "nombre":"LIMPIEZA FACIAL - CON PUNTA DE DIAMANTE",
+    "rubro": "ESTETICA",
+    "precio": 2000,
+    "stock":2,
+    "img": "../img/servicios/limpiezaFacial.jpg"
+  }, {
+    "id": "i",
+    "nombre":"DEPILACION - COMBO PIERNAS",
+    "rubro": "DEPILACION",
+    "precio": 2467,
+    "stock":2,
+    "img": "../img/servicios/depilacion.png"
+  }, {
+    "id": "g",
+    "nombre":"LIFTING DE PESTAÑAS",
+    "rubro": "LIFTING",
+    "precio": 1505,
+    "stock":2,
+    "img": "../img/servicios/lifting.png"
+  },{
+    "id": "h",
+    "nombre":"SEMIPERMANENTES DE MANOS",
+    "rubro": "MANOS Y PIES",
+    "precio": 1505,
+    "stock":2,
+    "img": "../img/carousel/manicura.png"
+  },{
+    "id": "h",
+    "nombre":"SEMIPERMANENTES DE PIES",
+    "rubro": "MANOS Y PIES",
+    "precio": 1505,
+    "stock":2,
+    "img": "../img/carousel/manicura.png"
+  },{
+    "id": "h",
+    "nombre":"SEMIPERMANENTES DE MANOS Y PIES",
+    "rubro": "MANOS Y PIES",
+    "precio": 1505,
+    "stock":2,
+    "img": "../img/carousel/manicura.png"
+  }
+]

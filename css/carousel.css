@@ -1,0 +1,25 @@
+.carousel-inner img {
+  width: 100%;
+  display: block;
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(50%);
+}
+
+.carousel{
+  margin-top: 4rem;
+  position: relative;
+}
+
+
+/* .carousel .overlay {
+  position: absolute;
+  z-index: 1; sirve para que el texto quede arriba de las imagenes
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba 0000.5;
+  color: white;
+} */
+

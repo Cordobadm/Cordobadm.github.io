@@ -1,0 +1,75 @@
+/* .row{
+  justify-content: center;
+} */
+
+.servicios-swiper{
+  width: 800px;
+}
+
+.card .image {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #807296;
+}
+
+.card .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 0, 5;
+  color: gainsboro;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1, 5;
+  color: #807296;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 35px;
+}
+
+
+.swiper-pagination {
+  position: inherit;
+  text-align: center;
+  margin-top: 1rem;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  background-color: #807296;
+}
+
+#turnos img {
+  width: 32px;
+  padding: 3px;
+  border: 0;
+}
+
+#turnos a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+#turnos {
+  list-style: none;
+  font-size: 12px;
+}
