@@ -5,8 +5,8 @@ $('#footer-principal').append(`
         <h5>Información</h5>
           <li><hr class="dropdown-divider"></li>
           <ul class="lista-footer">
-            <li><a href="../html/index.html">Inicio</a></li>
-            <li><a href="../html/nosotras.html" target="_blank">Nosotras</a></li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotras.html" target="_blank">Nosotras</a></li>
           </ul>
         </div>
 
