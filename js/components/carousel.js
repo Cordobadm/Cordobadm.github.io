@@ -14,7 +14,7 @@ $(".carousel").append(
             <img src="../img/carousel/masajes.png" alt="img masajes">
         </div>
         <div class="carousel-item">
-            <a href="../html/productos.html"><img src="../img/carousel/manicura.png" alt="img manicura"></a>
+            <a href="./productos.html"><img src="../img/carousel/manicura.png" alt="img manicura"></a>
         </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
