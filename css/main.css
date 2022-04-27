@@ -1,12 +1,6 @@
-#productosInicio {
-  margin: 6rem 0px 4rem;
-  text-align: center;
-  font: 50px;
-  color: black;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-#serviciosInicio, #noticiasNovias {
+#productosInicio,
+#serviciosInicio,
+#noticiasNovias {
   margin: 8rem 0px 5rem;
   text-align: center;
   font: 50px;
@@ -42,7 +36,7 @@
 }
 
 .swiper-informacion img {
- padding-top: 1rem;
+  padding-top: 1rem;
   width: 30%;
 }
 
@@ -63,6 +57,5 @@
 
 #titulo {
   font-family: "Josefin Sans", sans-serif;
-  font-size:23px ;
+  font-size: 23px;
 }
-

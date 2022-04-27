@@ -11,11 +11,11 @@
 }
 
 #textoNosotras {
-  color: black;
-  margin-top: 10rem;
+  margin: 10rem 0px 4rem;
   text-align: center;
-  font-size: 3rem;
-  font-family: 'Josefin Sans', sans-serif;
+  font: 50px;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #redesNosotras img {
@@ -44,10 +44,4 @@
 
 .masInfo {
   display: none;
-}
-
-
-@font-face {
-  font-family: "halimun";
-  src: url("../font/Halimun.ttf.ttf");
 }
