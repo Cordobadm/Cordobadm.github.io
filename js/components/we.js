@@ -16,13 +16,13 @@ const obtenerPersonas = () => {
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="${card.imagen}" class="d-block w-100" alt="..." />
+                <img src="${card.imagen}"  alt="imagen1" />
               </div>
               <div class="carousel-item">
-                <img src="${card.imagen1}" class="d-block w-100" alt="..." />
+                <img src="${card.imagen1}" alt="imagen2" />
               </div>
               <div class="carousel-item">
-                <img src="${card.imagen2}" class="d-block w-100" alt="..." />
+                <img src="${card.imagen2}" alt="imagen3" />
               </div>
             </div>
           </div>

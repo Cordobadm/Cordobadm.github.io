@@ -1,11 +1,6 @@
 /* .row{
   justify-content: center;
 } */
-
-.servicios-swiper{
-  width: 800px;
-}
-
 .card .image {
   height: 140px;
   width: 140px;
@@ -64,6 +59,7 @@
 #turnos a {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   align-items: center;
   text-decoration: none;
   color: black;

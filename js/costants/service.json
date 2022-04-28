@@ -2,7 +2,7 @@
   {
     "id": "1",
     "nombre":"MAQUILLAJE DE NOVIA Y SOCIAL",
-    "rubro": "MAQUILLAJE",
+    "rubro": "MAKEUP",
     "precio": 1400,
     "stock":2,
     "img": "../img/servicios/makeup.png"
@@ -12,14 +12,14 @@
     "rubro": "PEINADO",
     "precio": 1000,
     "stock":2,
-    "img": "../img/servicios/peinado.png"
+    "img": "../img/servicios/peinado.jpg"
   }, {
     "id": "3",
     "nombre":"MANOS Y PIES CON SEMIPERMANENTE",
     "rubro": "MANOS Y PIES",
     "precio": 2000,
     "stock":2,
-    "img": "../img/servicios/limpiezaFacial.jpg"
+    "img": "../img/carousel/manicura.png"
   }, {
     "id": "4",
     "nombre":"DEPILACION DEFINITIVA",
@@ -40,7 +40,7 @@
     "rubro": "BELLEZA",
     "precio": 1505,
     "stock":2,
-    "img": "../img/carousel/manicura.png"
+    "img": "../img/servicios/perfilado.png"
   },{
     "id": "7",
     "nombre":"MASAJE CORPORAL DESCONTRACTURANTE",
@@ -54,6 +54,6 @@
     "rubro": "BELLEZA",
     "precio": 1505,
     "stock":2,
-    "img": "../img/carousel/limpiezaFacial.jpg"
+    "img": "../img/servicios/limpiezaFacial.jpg"
   }
 ]

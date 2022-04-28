@@ -19,8 +19,13 @@
 }
 
 #cardNos {
-  margin-top: 2rem;
   padding: 30px;
+  height: 70%;
+}
+
+#cardNos .carousel-item img {
+  width: 100%;
+  height: 70%;
 }
 
 .card {
@@ -60,6 +65,7 @@
 
 #info {
   font-family: "Montserrat", sans-serif;
+  font-size: 13px;
 }
 
 .masInfo {

@@ -13,7 +13,9 @@ function addProducts(arrayProd) {
     cardProducts.innerHTML += `
       <div id="cardService" class= "${e.rubro} col-6 col-md-4 col-lg-3"> 
       <div class="item-rounded">
+      <div class="image">
         <img src="${e.img}">
+      </div>
         <h6 class="card-title">${e.nombre}</h6>
         <h4>Precio: $<span>${e.precio}</span></h4>
         <h3>stock: ${e.stock}</h3>
@@ -28,7 +30,7 @@ function addProducts(arrayProd) {
   });
 }
 
-let productos = document.getElementById("produtos");
+let productos = document.getElementById("products");
 const filtrarProductos = () => {
   if (productos.value === "all") {
     addProducts(stockProducts);
@@ -44,7 +46,7 @@ productos.addEventListener("change", function () {
   filtrarProductos();
 });
 
-const filtrarPrecios = document.getElementById("precio");
+const filtrarPrecios = document.getElementById("prices");
 filtrarPrecios.addEventListener("change", () => {
   if (filtrarPrecios.value == 1) {
     stockProducts.sort((a, b) => a.precio - b.precio);

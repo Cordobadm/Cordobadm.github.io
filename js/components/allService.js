@@ -15,7 +15,9 @@ function addService(arrayServ) {
     cardService.innerHTML += `
       <div id="cardService" class= "${e.rubro} col-6 col-md-4 col-lg-3"> 
       <div class="item-rounded">
+      <div class="image">
         <img src="${e.img}">
+      </div>
         <h6 class="card-title">${e.nombre}</h6>
         <h4>Precio: $<span>${e.precio}</span></h4>
         <h3>stock: ${e.stock}</h3>
@@ -29,7 +31,7 @@ function addService(arrayServ) {
     `;
   });
 }
-let servicios = document.getElementById("servicio");
+let servicios = document.getElementById("services");
 
 const filtrarServicios = () => {
   if (servicios.value == "all") {
@@ -46,7 +48,7 @@ servicios.addEventListener("change", function () {
   filtrarServicios();
 });
 
-let filtrarPrecio = document.getElementById("precios");
+let filtrarPrecio = document.getElementById("prices");
 filtrarPrecio.addEventListener("change", () => {
   if (filtrarPrecio.value == 1) {
     stockService.sort((a, b) => a.precio - b.precio);
