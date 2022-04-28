@@ -4,9 +4,9 @@ const obtenerPersonas = () => {
   $.getJSON(URLGET, (data) => {
     for (const card of data) {
       $("#cardNosotras").append(`
-      <div id="cardNos" class="mt-3 col-12 col-md-4">
+      <div id="cardNos" class="mt-3 col-12 col-md-6 col-lg-4">
       <div class="card">
-        <div class="card-title">
+        <div class="card-profile">
           <div
             id="carouselExampleSlidesOnly"
             class="carousel slide"
@@ -16,7 +16,7 @@ const obtenerPersonas = () => {
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="${card.imagen}"  alt="imagen1" />
+                <img src="${card.imagen}" alt="imagen1" />
               </div>
               <div class="carousel-item">
                 <img src="${card.imagen1}" alt="imagen2" />
@@ -27,11 +27,12 @@ const obtenerPersonas = () => {
             </div>
           </div>
         </div>
-      
     
         <div class="card-body">
           <div class="badges">
-            <span class="badge rounded-pill bg-warning text-dark">${card.cargo}</span>
+            <span class="badge rounded-pill bg-warning text-dark"
+              >${card.cargo}</span
+            >
             <span class="badge rounded-pill bg-primary">${card.profesion}</span>
           </div>
           <h5 id="name" class="card-title p-2">${card.nombre} ${card.apellido}</h5>
@@ -44,16 +45,16 @@ const obtenerPersonas = () => {
     
           <div class="media-icons">
             <a href="${card.linkedin}" target="_blank">
-            <img src="../img/iconos/iconoLinkedin.svg" alt="twitter"
+              <img src="../img/iconos/iconoLinkedin.svg" alt="twitter"
             /></a>
             <a href="${card.instagram}" target="_blank"
               ><img src="../img/iconos/iconoig.svg" alt="instagram"
             /></a>
             <a href="${card.facebook}" target="_blank">
-            <img src="../img/iconos/iconoFace.svg" alt="facebook"
+              <img src="../img/iconos/iconoFace.svg" alt="facebook"
             /></a>
             <a href="${card.twitter}" target="_blank">
-            <img src="../img/iconos/iconoTwitter.svg" alt="twitter"
+              <img src="../img/iconos/iconoTwitter.svg" alt="twitter"
             /></a>
           </div>
         </div>
