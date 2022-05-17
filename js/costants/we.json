@@ -3,48 +3,33 @@
     "id": 0,
     "nombre": "Elizabeth",
     "apellido": "Herrera",
-    "cargo": "Cargo",
-    "profesion": "Profesion",
+    "cargo": "Socia",
     "imagen": "../img/imgNosotras/elizabeth.png",
-    "imagen1": "../img/imgNosotras/lucia.png",
-    "imagen2": "../img/imgNosotras/alexia.png",
     "linkedin": "https://www.linkedin.com/in/elizabeth-herrera-7354a939/",
     "instagram": "https://www.instagram.com/eli_herrera_69/",
-    "facebook": "https://www.facebook.com/elizabeth.herrera.399",
-    "twitter": "",
-    "informacion": "Lorem, ipsum dolor sit amet consectetur  elit.",
-    "masInformacion": "Rem corupti  in amet nihil dolorumsimilique molestias laboriosam nostrum."
+    "informacion": "Socia fundadora de Magnolia Healthy Beauty, médica clínica, especialista en Endocrinología y Estética",
+    "masInformacion": "Amo mi profesión, la cual desempeño hace más de 25 años. Una vida puesta al servicio de los demás. <br>Ahora junto a mis hijas, me encuentro emprendiendo este camino de la salud y el bienestar. <br>Nuestra misión es cuidar y acompañar a nuestras clientas de adentro hacia afuera, con una mirada integral."
   },
   {
     "id": 1,
     "nombre": "Alexia",
     "apellido": "Ponce de Leon",
-    "cargo": "Cargo",
-    "profesion": "Profesion",
+    "cargo": "Socia",
     "imagen": "../img/imgNosotras/alexia.png",
-    "imagen1": "../img/imgNosotras/elizabeth.png",
-    "imagen2": "../img/imgNosotras/lucia.png",
     "linkedin": "https://www.linkedin.com/in/alexiapdl/",
     "instagram": "https://www.instagram.com/alexiapdl/",
-    "facebook": "https://www.facebook.com/alexiapdl1",
-    "twitter": "https://twitter.com/Alexiapdl",
-    "informacion": "Lorem, ipsum dolor sit amet consectetur  elit.",
-    "masInformacion": "Rem corupti  in amet nihil dolorumsimilique molestias laboriosam nostrum."
+    "informacion": "Comunicadora y periodista. Socia fundadora de Magnolia Healthy Beauty",
+    "masInformacion": "Cambiar de profesión y mutar fue el desafío que me trajo hasta aquí. Hace unos años, Lucía, mi hermana, me invitó a sumarme al mundo de los eventos, acompañarla como dupla, ella con el maquillaje y yo con los peinados. Me capacité en esta nueva área que siempre me fascinó y comenzamos juntas. <br>Luego de un par de años, nos animamos a abrir nuestro querido estudio y así nació Magnolia.<br>Hoy me desempeño como peinadora pero también continúo con mi querida profesión de comunicadora, siempre en las redes y en contacto con nuestras clientas."
   },
   {
     "id": 2,
     "nombre": "Lucia",
     "apellido": "Ponce de Leon",
-    "cargo": "Cargo",
-    "profesion": "Profesion",
+    "cargo": "Socia",
     "imagen": "../img/imgNosotras/lucia.png",
-    "imagen1": "../img/imgNosotras/alexia.png",
-    "imagen2": "../img/imgNosotras/elizabeth.png",
     "linkedin": "https://www.linkedin.com/in/lucia-ponce-de-leon-25a7701b8/",
-    "instagram": "https://www.instagram.com/luciapdl/",
-    "facebook": "https://www.facebook.com/lucia.poncedeleon.56",
-    "twitter": "",
-    "informacion": "Lorem, ipsum dolor sit amet consectetur  elit.",
-    "masInformacion": "Rem corupti  in amet nihil dolorumsimilique molestias laboriosam nostrum."
+    "instagram": "https://www.instagram.com/luponcedeleonmakeup/",
+    "informacion": "Soy maquilladora y socia fundadora de Magnolia Healthy Beauty",
+    "masInformacion": "Desde el 2014 que comencé en este hermoso y desafiante rubro que son los eventos. Junto a mi mamá y hermana, en plena pandemia nos animamos a cumplir nuestro sueño y abrir nuestro propio spa!! Amo lo que hago y sobre todo acompañar a las novias e invitadas en sus noches mágicas.  <br>PD: en mis tiempos libres estudio Medicina."
   }
 ]
