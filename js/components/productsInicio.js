@@ -21,6 +21,7 @@ function agregarProductosAlhtml(array) {
           <img src="${e.img}">
         </div>
         <div class="info-novedades">
+        <p >${e.marca}</p>
           <p >${e.nombre}</p>
           <span>Precio: $${e.precio}</span>
         </div>

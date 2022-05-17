@@ -16,6 +16,7 @@ function addProducts(arrayProd) {
       <div class="image">
         <img src="${e.img}">
       </div>
+      <h6 class="card-title">${e.marca}</h6>
         <h6 class="card-title">${e.nombre}</h6>
         <h4>Precio: $<span>${e.precio}</span></h4>
         <h3>stock: ${e.stock}</h3>
@@ -30,11 +31,13 @@ function addProducts(arrayProd) {
   });
 }
 
+// AGREGAR FILTRADO POR SUBRUBRO
+
 let productos = document.getElementById("products");
 const filtrarProductos = () => {
   if (productos.value === "all") {
     addProducts(stockProducts);
-  } else {
+  } else  {
     const arrayFiltrado = stockProducts.filter(
       (el) => el.rubro == productos.value
     );

@@ -1,12 +1,13 @@
 [
   {
     "id": 0,
-    "marca": "LACA",
+    "marca": "RUDE COSMETICS",
     "rubro": "MAKEUP",
-    "nombre": "BROCHA",
-    "precio": 1000,
-    "stock": 2,
-    "img": "../img/productos/brocha.png"
+    "subrubro":"ROSTRO",
+    "nombre": "UNDAUNTED BLUSH PALLETE",
+    "precio": 3200,
+    "img": "../img/productos/UNDAUNTEDBLUSHPALLETE.png",
+    "img1":""
   },
   {
     "id": 1,
@@ -15,7 +16,7 @@
     "nombre": "LABIAL",
     "precio": 2111,
     "stock": 5,
-    "img": "../img/productos/labial.png"
+    "img": "../img/productos/UNDAUNTEDBLUSHPALLETE1.png"
   },
   {
     "id": 5,
