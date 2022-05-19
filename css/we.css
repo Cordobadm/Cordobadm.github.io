@@ -50,7 +50,7 @@
 #cardNos .card::before {
   content: "";
   position: absolute;
-  height: 40%;
+  height:200px;
   width: 100%;
   background-size: 50vh;
   background-position: center;

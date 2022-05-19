@@ -13,9 +13,9 @@ function addProducts(arrayProd) {
     cardProducts.innerHTML += `
       <div id="cardService" class= "${e.rubro} col-6 col-md-4 col-lg-3"> 
       <div class="item-rounded">
-      <div class="image">
-        <img src="${e.img}">
-      </div>
+      <a target="_blank" href="${e.img}">
+        <img src="${e.img}" id="myImg">
+      </a>
       <h6 class="card-title">${e.marca}</h6>
         <h6 class="card-title">${e.nombre}</h6>
         <h4>Precio: $<span>${e.precio}</span></h4>
@@ -28,7 +28,9 @@ function addProducts(arrayProd) {
         </div>
       </div>
     `;
+    
   });
+  
 }
 
 // AGREGAR FILTRADO POR SUBRUBRO
@@ -59,3 +61,6 @@ filtrarPrecios.addEventListener("change", () => {
     filtrarProductos(stockProducts);
   }
 });
+
+
+
