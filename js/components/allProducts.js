@@ -1,4 +1,4 @@
-const cardProducts = document.querySelector(".content-all-products")
+const cardProducts = document.querySelector(".content-all-products");
 
 const URLGETPROD = "../js/costants/products.json";
 $.getJSON(URLGETPROD, (data) => {
@@ -44,67 +44,6 @@ const filtrarProductos = () => {
   }
 };
 
-productos.addEventListener("change", function () {
-  filtrarProductos();
-  subRubro()
-});
-
-//FILTRAR PRODUCTOS POR SUBRUBRO (makeUp)
-let makeup = document.getElementById("makeup");
-const filtrarSubRubro = () => {
-  if (makeup.value === "all") {
-    const arrayFiltrado = stockProducts.filter(
-      (el) => el.rubro == productos.value
-    );
-    addProducts(arrayFiltrado);
-  } else {
-    const arrayFiltrado1 = stockProducts.filter(
-      (el) => el.subRubro == makeup.value
-    );
-    addProducts(arrayFiltrado1);
-  }
-};
-
-makeup.addEventListener("change", function () {
-  filtrarSubRubro();
-});
-
-//FILTRAR PRODUCTOS POR SUBRUBRO (cuidadosDeLaPiel)
-let cuidadosDeLaPiel = document.getElementById("cuidadosDeLaPiel");
-const filtrarSubRubroCuidadosPiel = () => {
-  if (cuidadosDeLaPiel.value === "all") {
-    const arrayFiltrado = stockProducts.filter(
-      (el) => el.rubro == productos.value
-    );
-    addProducts(arrayFiltrado);
-  } else {
-    const arrayFiltrado1 = stockProducts.filter(
-      (el) => el.subRubro == cuidadosDeLaPiel.value
-    );
-    addProducts(arrayFiltrado1);
-  }
-};
-
-cuidadosDeLaPiel.addEventListener("change", function () {
-  filtrarSubRubroCuidadosPiel();
-});
-
-//FILTRAR PRODUCTOS POR PRECIO
-
-const filtrarPrecios = document.getElementById("precio");
-
-filtrarPrecios.addEventListener("change", () => {
-  if (filtrarPrecios.value == 1) {
-    stockProducts.sort((a, b) => a.precio - b.precio);
-    filtrarProductos(stockProducts);
-    
-  } else {
-    stockProducts.sort((a, b) => b.precio - a.precio);
-    filtrarProductos(stockProducts);
-    
-  }
-});
-
 const subRubro = () => {
   if (productos.value === "all") {
     $(makeup).hide();
@@ -127,4 +66,123 @@ const subRubro = () => {
     $(peinado).hide();
   }
 };
+
+productos.addEventListener("change", function () {
+  filtrarProductos();
+  subRubro();
+});
+
+//FILTRAR PRODUCTOS POR SUBRUBRO (makeUp)
+let makeup = document.getElementById("makeup");
+const filtrarSubRubroMake = () => {
+  if (makeup.value === "all") {
+    const arrayFiltrado = stockProducts.filter(
+      (el) => el.rubro == productos.value
+    );
+    addProducts(arrayFiltrado);
+  } else {
+    const arrayFiltrado1 = stockProducts.filter(
+      (el) => el.subRubro == makeup.value
+    );
+    addProducts(arrayFiltrado1);
+  }
+};
+
+makeup.addEventListener("change", function () {
+  filtrarSubRubroMake();
+});
+
+//FILTRAR PRODUCTOS POR SUBRUBRO (cuidadosDeLaPiel)
+let cuidadosDeLaPiel = document.getElementById("cuidadosDeLaPiel");
+const filtrarSubRubroCuidadosPiel = () => {
+  if (cuidadosDeLaPiel.value === "all") {
+    const arrayFiltrado = stockProducts.filter(
+      (el) => el.rubro == productos.value
+    );
+    addProducts(arrayFiltrado);
+  } else {
+    const arrayFiltrado1 = stockProducts.filter(
+      (el) => el.subRubro == cuidadosDeLaPiel.value
+    );
+    addProducts(arrayFiltrado1);
+  }
+
+};
+
+cuidadosDeLaPiel.addEventListener("change", function () {
+  filtrarSubRubroCuidadosPiel();
+});
+
+//FILTRAR PRODUCTOS POR SUBRUBRO (peinado)
+let peinado = document.getElementById("peinado");
+const filtrarSubRubroPeinado = () => {
+  if (peinado.value === "all") {
+    const arrayFiltrado = stockProducts.filter(
+      (el) => el.rubro == productos.value
+    );
+    addProducts(arrayFiltrado);
+  } else {
+    const arrayFiltrado1 = stockProducts.filter(
+      (el) => el.subRubro == peinado.value
+    );
+    addProducts(arrayFiltrado1);
+  }
+
+};
+
+peinado.addEventListener("change", function () {
+  filtrarSubRubroPeinado();
+});
+
+//FILTRAR PRODUCTOS POR PRECIO
+
+const filtrarPrecios = document.getElementById("precio");
+
+const filtrarPrice = () => {
+  if (productos.value == "all") {
+    if (filtrarPrecios.value == 1) {
+      stockProducts.sort((a, b) => a.precio - b.precio);
+      addProducts(stockProducts);
+      console.log("menor");
+    } else {
+      stockProducts.sort((a, b) => b.precio - a.precio);
+      addProducts(stockProducts);
+    }
+  }
+  if (productos.value == "MAKEUP") {
+    if (filtrarPrecios.value == 1) {
+      stockProducts.sort((a, b) => a.precio - b.precio);
+      filtrarSubRubroMake(stockProducts);
+      console.log("menor");
+    } else {
+      stockProducts.sort((a, b) => b.precio - a.precio);
+      filtrarSubRubroMake(stockProducts);
+      stockProducts;
+    }
+    }if(productos.value == "PEINADO"){
+      if (filtrarPrecios.value == 1) {
+        stockProducts.sort((a, b) => a.precio - b.precio);
+        filtrarSubRubroPeinado(stockProducts);
+        console.log("menor");
+      } else {
+        stockProducts.sort((a, b) => b.precio - a.precio);
+        filtrarSubRubroPeinado(stockProducts);(stockProducts);
+      }
+  }
+  if (productos.value == "CUIDADOSPIEL") {
+    if (filtrarPrecios.value == 1) {
+      stockProducts.sort((a, b) => a.precio - b.precio);
+      filtrarSubRubroCuidadosPiel(stockProducts);
+      console.log("menor");
+    } else {
+      stockProducts.sort((a, b) => b.precio - a.precio);
+      filtrarSubRubroCuidadosPiel(stockProducts);
+      stockProducts;
+    }
+  }
+};
+
+filtrarPrecios.addEventListener("change", function () {
+  filtrarPrice();
+});
 
