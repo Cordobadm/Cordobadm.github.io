@@ -69,7 +69,7 @@
   display: none;
 }
 
-.item-rounded .image img {
+.item-rounded img {
   width: 100%;
   height: auto;
   border-radius: 20px 20px 0 0;
@@ -87,4 +87,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+/* SUB RUBRO */
+#makeup {
+  display: none;
+}
+
+#cuidadosDeLaPiel {
+  display: none;
+}
+
+#peinado {
+  display: none;
 }
