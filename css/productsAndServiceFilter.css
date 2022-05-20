@@ -19,22 +19,22 @@
 }
 
 .form-select {
-  width: 15%;
-  float: right;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 13px;
-}
-
-#products,
-#services,
-#prices {
-  width: 130px;
+  width: 150px;
   height: 35px;
   margin: 2rem 1rem 2rem 0px;
   font-family: "Montserrat", sans-serif;
   border-radius: 10px;
   text-align: center;
+  font-size: 14px;
+  float: left;
+  outline: none;
 }
+
+.form-select:focus{
+  border-color: #807296;
+  box-shadow: 0 0 0 0.25rem rgb(128 114 150 / 25%);;
+}
+
 
 #cardService {
   text-align: center;
