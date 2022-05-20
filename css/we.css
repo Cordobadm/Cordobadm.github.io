@@ -5,8 +5,8 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-#textoNosotras{
-  margin-top:13rem;
+#textoNosotras {
+  margin-top: 13rem;
   text-align: center;
   font: 50px;
   color: black;
@@ -32,7 +32,7 @@
 }
 
 #cardNos .card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 6px 10px 0 rgba(128 114 150), 0 6px 20px 0 rgba(128 114 149);
 }
 
 #cardNos .card .card-title .carousel-item img {
@@ -50,7 +50,7 @@
 #cardNos .card::before {
   content: "";
   position: absolute;
-  height:200px;
+  height: 200px;
   width: 100%;
   background-size: 50vh;
   background-position: center;
