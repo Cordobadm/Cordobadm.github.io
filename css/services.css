@@ -50,6 +50,7 @@
   background-color: #807296;
 }
 
+/* SERVICIOS FILTRAR */
 #turnos img {
   width: 32px;
   padding: 3px;
@@ -63,6 +64,8 @@
   text-decoration: none;
   color: black;
   font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 #turnos {

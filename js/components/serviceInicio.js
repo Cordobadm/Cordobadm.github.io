@@ -19,9 +19,9 @@ function agregarServiciosAlHtml(arrayServ) {
         <div class="image"> 
           <img src="${e.img}">
         </div>
-        <div class="info-novedades">
-          <p >${e.nombre}</p>
-          <span>Precio: $${e.precio}</span>
+        <div class="info-novedades"> 
+        <h6 class="card-title">${e.nombre}</h6>
+        <h4>Precio: $<span>${e.precio}</span></h4>
         </div>
         <div class="turnos-novedades"
           <li id="turnos">

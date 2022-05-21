@@ -55,17 +55,19 @@
 }
 
 .item-rounded h4 {
-  font-size: 15px;
+  font-size: 13px;
   margin: 1px;
 }
 
 .item-rounded h6 {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
   margin-top: 10px;
 }
 
-.item-rounded h3 {
-  display: none;
+.item-rounded h5 {
+  margin: 5px;
+  font-size: 12px;
 }
 
 .item-rounded img {

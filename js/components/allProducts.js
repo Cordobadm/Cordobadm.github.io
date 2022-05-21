@@ -12,17 +12,18 @@ function addProducts(arrayProd) {
   arrayProd.map((e) => {
     cardProducts.innerHTML += `
       <div id="cardService" class= "${e.rubro} ${e.subRubro} col-6 col-md-4 col-lg-3"> 
-      <div class="  item-rounded">
+      <div class="item-rounded">
+      <div class="image">
         <a target="_blank" href="${e.img}">
-          <img src="${e.img}" id="myImg">
+          <img src="${e.img}">
         </a>
+      </div>
+        <h5>${e.marca}</h5>
         <h6 class="card-title">${e.nombre}</h6>
         <h4>Precio: $<span>${e.precio}</span></h4>
-        <h3>stock: ${e.stock}</h3>
-    
-        <li id="turnos">
-          <a href="https://api.whatsapp.com/send/?phone=543813846221&text=¡Hola Chicas! Necesito turno para ${e.nombre}" target="_blank">
-          <img src="../img/iconos/iconoWhatsapp.png" alt="imagen whatsapp">Consultar Stock</a>
+        <li id="productsBuy">
+          <a href="https://api.whatsapp.com/send/?phone=543813846221&text=¡Hola Chicas! Quiero comprar ${e.nombre}" target="_blank">
+          <img src="../img/iconos/iconoWhatsapp.png" alt="imagen whatsapp">Comprar</a>
         </li>
         </div>
       </div>

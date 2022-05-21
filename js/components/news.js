@@ -20,8 +20,8 @@ function agregarNovedadesAlHtml(arrayNov) {
             <img src="${e.img}">
           </div>
           <div class="info-novedades">
-            <p >${e.nombre}</p>
-            <span>Precio: $${e.precio}</span>
+            <h6>${e.nombre}</h6>
+            <h4>Precio: $<span>${e.precio}</span></h4>
           </div>
           <div class="turnos-novedades"
             <li id="turnos">
