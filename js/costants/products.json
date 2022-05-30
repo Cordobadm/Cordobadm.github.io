@@ -19,7 +19,7 @@
     "nombre": "SET DE 12 BROCHAS",
     "precio": 8000,
     "stock": 9,
-    "img": "../img/productos/proteina.png",
+    "img": "../img/productos/CITYOFNEONLIGHTS.png",
     "img1": "../img/productos/proteina.png"
   },{
     "id": 2,
@@ -40,7 +40,7 @@
     "nombre": "ROYAL AFFAIR PALETTE",
     "precio": 5000,
     "stock": 1,
-    "img": "../img/productos/buclera.png",
+    "img": "../img/productos/CITYOFNEONLIGHTS.png",
     "img1": "../img/productos/proteina.png"
   },
   {
@@ -51,8 +51,8 @@
     "nombre": "ANIME MANGA - LIBRO 2",
     "precio": 6000,
     "stock": 1,
-    "img": "../img/productos/cellactive.png",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/ANIMEMANGA-LIBRO2.png",
+    "img1": "../img/productos/ANIMEMANGA-LIBRO2.1.png"
   },
   {
     "id": 6,
@@ -62,8 +62,8 @@
     "nombre": "BLACKJACK 21 EYESHADOWS - BAD GIRL",
     "precio": 6000,
     "stock": 1,
-    "img": "../img/productos/tapaojeras.jpg",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/BLACKJACK21EYESHADOWS-BADGIRL.png",
+    "img1": "../img/productos/BLACKJACK21EYESHADOWS-BADGIRL1.png"
   },
   {
     "id": 7,
@@ -73,7 +73,7 @@
     "nombre": "BLACKJACK 21 EYESHADOWS - TOUGH GIRL",
     "precio": 6000,
     "stock": 2,
-    "img": "../img/productos/power.png",
+    "img": "../img/productos/CITYOFNEONLIGHTS.png",
     "img1": "../img/productos/proteina.png"
   },
   {
@@ -84,7 +84,7 @@
     "nombre": "28 EXCUSES EYESHADOW PALETTE - LEO SHIMER",
     "precio": 6000,
     "stock": 1,
-    "img": "../img/productos/antiage.png",
+    "img": "../img/productos/CITYOFNEONLIGHTS.png",
     "img1": "../img/productos/power.png"
   },
   {
@@ -95,8 +95,8 @@
     "nombre": "CITY OF NEON LIGHTS",
     "precio": 6000,
     "stock": 1,
-    "img": "../img/productos/fijador.jpg",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/CITYOFNEONLIGHTS.png",
+    "img1": "../img/productos/CITYOFNEONLIGHTS1.png"
   },
   {
     "id": 10,

@@ -18,7 +18,7 @@ function agregarProductosAlhtml(array) {
       <div class= "card-content">
         <div class="image"> 
           <a target="_blank" href="${e.img}">
-            <img src="${e.img}">
+            <img src="${e.img1}">
           </a>
         </div>
         <div class="info-novedades">
