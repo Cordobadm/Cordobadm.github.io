@@ -4,10 +4,6 @@ section {
   justify-content: center;
 }
 
-.novedades-swiper {
-  padding: 3px;
-}
-
 section .card .image {
   height: 140px;
   width: 140px;
@@ -28,7 +24,9 @@ section .card .image img {
   position: relative;
   border-radius: 20px;
   width: 280px;
+  min-height: 351px;
   border: 1px solid black;
+  box-shadow: 0 3px 6px 0 rgba(128 114 150), 0 3px 6px 0 rgba(128 114 149);
 }
 
 .card::before {
@@ -41,7 +39,7 @@ section .card .image img {
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 6px 10px 0 rgba(128 114 150), 0 6px 20px 0 rgba(128 114 149);
 }
 
 .card .card-content {
@@ -72,4 +70,12 @@ section .card .image img {
   align-items: center;
   margin-top: 10px;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+  .products-swiper .card {
+    min-height: 385px;
+  }
+
+ 
 }

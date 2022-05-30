@@ -1,4 +1,7 @@
 const cardProducts = document.querySelector(".content-all-products");
+let modal = document.getElementById("modalImage");
+let imageCarousel = document.getElementById("carousel-image-product");
+let span = document.getElementsByClassName("close")[0];
 
 const URLGETPROD = "../js/costants/products.json";
 $.getJSON(URLGETPROD, (data) => {
@@ -13,11 +16,8 @@ function addProducts(arrayProd) {
     cardProducts.innerHTML += `
       <div id="cardService" class= "${e.rubro} ${e.subRubro} col-6 col-md-4 col-lg-3"> 
       <div class="item-rounded">
-      <div class="image">
-        <a target="_blank" href="${e.img}">
-          <img src="${e.img}">
-        </a>
-      </div>
+        <img class="top" id="img0" src="${e.img1}">
+        <img class="top" id="img1" src="${e.img}" data-src="${e.img1}">
         <h5>${e.marca}</h5>
         <h6 class="card-title">${e.nombre}</h6>
         <h4>Precio: $<span>${e.precio}</span></h4>
@@ -28,8 +28,46 @@ function addProducts(arrayProd) {
         </div>
       </div>
     `;
+
+    // Image Products Carousel
+    let imag = document.querySelectorAll(".top");
+    imag.forEach(function (item) {
+      item.addEventListener("click", function () {
+        modal.style.display="block"
+
+        imageCarousel.innerHTML = `
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="modal-content" src="${item.src}">
+            </div>
+            <div class="carousel-item">
+              <img class="modal-content" src="${item.dataset.src}">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-image-product" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-image-product" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      `;
+        console.log(item);
+      });
+    });
   });
 }
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
 
 // FILTRAR PRODUCTOS POR RUBRO
 
@@ -45,32 +83,25 @@ const filtrarProductos = () => {
   }
 };
 
-const subRubro = () => {
+const subRubroProducts = () => {
   if (productos.value === "all") {
     $(makeup).hide();
-    $(cuidadosDeLaPiel).hide();
-    $(peinado).hide();
+    $(dermocosmetica).hide();
+    
   }
   if (productos.value == "MAKEUP") {
     $(makeup).show();
-    $(cuidadosDeLaPiel).hide();
-    $(peinado).hide();
+    $(dermocosmetica).hide();
   }
-  if (productos.value == "PEINADO") {
+  if (productos.value == "DERMOCOSMETICA") {
     $(makeup).hide();
-    $(cuidadosDeLaPiel).hide();
-    $(peinado).show();
-  }
-  if (productos.value == "CUIDADOSPIEL") {
-    $(makeup).hide();
-    $(cuidadosDeLaPiel).show();
-    $(peinado).hide();
+    $(dermocosmetica).show();
   }
 };
 
 productos.addEventListener("change", function () {
   filtrarProductos();
-  subRubro();
+  subRubroProducts();
 });
 
 //FILTRAR PRODUCTOS POR SUBRUBRO (makeUp)
@@ -94,52 +125,30 @@ makeup.addEventListener("change", function () {
 });
 
 //FILTRAR PRODUCTOS POR SUBRUBRO (cuidadosDeLaPiel)
-let cuidadosDeLaPiel = document.getElementById("cuidadosDeLaPiel");
-const filtrarSubRubroCuidadosPiel = () => {
-  if (cuidadosDeLaPiel.value === "all") {
+let dermocosmetica = document.getElementById("dermocosmetica");
+const filtrarSubRubroDermocosmetica = () => {
+  if (dermocosmetica.value === "all") {
     const arrayFiltrado = stockProducts.filter(
       (el) => el.rubro == productos.value
     );
     addProducts(arrayFiltrado);
   } else {
     const arrayFiltrado1 = stockProducts.filter(
-      (el) => el.subRubro == cuidadosDeLaPiel.value
+      (el) => el.subRubro == dermocosmetica.value
     );
     addProducts(arrayFiltrado1);
   }
-
 };
 
-cuidadosDeLaPiel.addEventListener("change", function () {
-  filtrarSubRubroCuidadosPiel();
-});
-
-//FILTRAR PRODUCTOS POR SUBRUBRO (peinado)
-let peinado = document.getElementById("peinado");
-const filtrarSubRubroPeinado = () => {
-  if (peinado.value === "all") {
-    const arrayFiltrado = stockProducts.filter(
-      (el) => el.rubro == productos.value
-    );
-    addProducts(arrayFiltrado);
-  } else {
-    const arrayFiltrado1 = stockProducts.filter(
-      (el) => el.subRubro == peinado.value
-    );
-    addProducts(arrayFiltrado1);
-  }
-
-};
-
-peinado.addEventListener("change", function () {
-  filtrarSubRubroPeinado();
+dermocosmetica.addEventListener("change", function () {
+  filtrarSubRubroDermocosmetica();
 });
 
 //FILTRAR PRODUCTOS POR PRECIO
 
 const filtrarPrecios = document.getElementById("precio");
 
-const filtrarPrice = () => {
+const filtrarPriceProducts = () => {
   if (productos.value == "all") {
     if (filtrarPrecios.value == 1) {
       stockProducts.sort((a, b) => a.precio - b.precio);
@@ -160,30 +169,20 @@ const filtrarPrice = () => {
       filtrarSubRubroMake(stockProducts);
       stockProducts;
     }
-    }if(productos.value == "PEINADO"){
-      if (filtrarPrecios.value == 1) {
-        stockProducts.sort((a, b) => a.precio - b.precio);
-        filtrarSubRubroPeinado(stockProducts);
-        console.log("menor");
-      } else {
-        stockProducts.sort((a, b) => b.precio - a.precio);
-        filtrarSubRubroPeinado(stockProducts);(stockProducts);
-      }
   }
-  if (productos.value == "CUIDADOSPIEL") {
+  if (productos.value == "DERMOCOSMETICA") {
     if (filtrarPrecios.value == 1) {
       stockProducts.sort((a, b) => a.precio - b.precio);
-      filtrarSubRubroCuidadosPiel(stockProducts);
+      filtrarSubRubroDermocosmetica(stockProducts);
       console.log("menor");
     } else {
       stockProducts.sort((a, b) => b.precio - a.precio);
-      filtrarSubRubroCuidadosPiel(stockProducts);
+      filtrarSubRubroDermocosmetica(stockProducts);
       stockProducts;
     }
   }
 };
 
 filtrarPrecios.addEventListener("change", function () {
-  filtrarPrice();
+  filtrarPriceProducts();
 });
-

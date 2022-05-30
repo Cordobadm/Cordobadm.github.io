@@ -15,6 +15,7 @@
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #fff;
+  cursor: pointer;
 }
 
 .swiper-button-next,

@@ -72,29 +72,20 @@
           <select id="produtos" class="form-select">
             <option value="all">Todos</option>
             <option value="MAKEUP">MakeUp</option>
-            <option value="PEINADO">Peinado</option>
-            <option value="CUIDADOSPIEL">Cuidados de la Piel</option>
+            <option value="DERMOCOSMETICA">Dermocosmetica</option>
           </select>
 
           <select id="makeup" class="form-select">
             <option value="all">Todos(MakeUp)</option>
+            <option value="ACCESORIOS">Accesorios</option>
+            <option value="ROSTRO">Rostro</option>
             <option value="OJOS">Ojos</option>
-            <option value="BOCA">Boca</option>
-            <option value="LABIOS">Labios</option>
           </select>
 
-          <select id="peinado" class="form-select">
-            <option value="all">Todos(Peinado)</option>
-            <option value="AB">AB</option>
-            <option value="BC">BC</option>
-            <option value="CD">CD</option>
-          </select>
-
-          <select id="cuidadosDeLaPiel" class="form-select">
-            <option value="all">Todos(Cuidados Piel)</option>
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
+          <select id="dermocosmetica" class="form-select">
+            <option value="all">Todos(Dermocosmetica)</option>
+            <option value="CORPORAL">Corporal</option>
+            <option value="FACIAL">Facial</option>
           </select>
 
           <select id="precio" class="form-select">
@@ -106,6 +97,14 @@
         </div>
         <div class="container">
           <div class="content-all-products"></div>
+            <div id="modalImage" class="modal">
+              <span class="close">&times;</span>
+              <div
+                id="carousel-image-product"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              ></div>
+            </div>
         </div>
       </div>
     </div>

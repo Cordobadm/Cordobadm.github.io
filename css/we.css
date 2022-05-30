@@ -29,6 +29,8 @@
   flex-direction: column;
   display: flex;
   overflow: hidden;
+  box-shadow: 0 6px 6px 0 rgba(128 114 150), 0 6px 6px 0 rgba(128 114 149);
+  min-height: 508px;
 }
 
 #cardNos .card:hover {

@@ -1,111 +1,133 @@
 [
+  
   {
     "id": 0,
-    "marca": "RUDE COSMETICS",
+    "marca": "MORPHE",
     "rubro": "MAKEUP",
-    "subrubro": "BOCA",
-    "nombre": "UNDAUNTED BLUSH PALLETE",
-    "precio": 3200,
-    "img": "../img/productos/UNDAUNTEDBLUSHPALLETE.png",
-    "img1": ""
+    "subRubro": "ACCESORIOS",
+    "nombre": "BEAUTIFUL AND BRONZE BRUSH SET",
+    "precio": 6000,
+    "stock": 2,
+    "img": "../img/productos/UNDAUNTEDBLUSHPALLETE1.png",
+    "img1": "../img/productos/proteina.png"
   },
   {
     "id": 1,
-    "marca": "MAC",
+    "marca": "COASTAL SCENTS",
     "rubro": "MAKEUP",
-    "nombre": "LABIAL",
-    "precio": 2111,
-    "stock": 5,
-    "img": "../img/productos/UNDAUNTEDBLUSHPALLETE1.png"
-  },
-  {
-    "id": 3,
-    "marca": "FINE",
-    "rubro": "CUIDADOSPIEL",
-    "subRubro": "C",
-    "nombre": "FINE STRONG",
-    "precio": 7500,
-    "stock": 2,
-    "img": "../img/productos/proteina.png"
+    "subRubro": "ACCESORIOS",
+    "nombre": "SET DE 12 BROCHAS",
+    "precio": 8000,
+    "stock": 9,
+    "img": "../img/productos/proteina.png",
+    "img1": "../img/productos/proteina.png"
+  },{
+    "id": 2,
+    "marca": "RUDE COSMETICS",
+    "rubro": "MAKEUP",
+    "subRubro": "ROSTRO",
+    "nombre": "UNDAUNTED BLUSH PALLETE",
+    "stock": 4,
+    "precio": 3800,
+    "img": "../img/productos/UNDAUNTEDBLUSHPALLETE.png",
+    "img1": "../img/productos/UNDAUNTEDBLUSHPALLETE1.png"
   },
   {
     "id": 4,
-    "marca": "REMINGTON ",
-    "rubro": "PEINADO",
-    "subRubro": "AB",
-    "nombre": "BUCLERA",
-    "precio": 2800,
-    "stock": 2,
-    "img": "../img/productos/buclera.png"
+    "marca": "BH COSMETICS ",
+    "rubro": "MAKEUP",
+    "subRubro": "OJOS",
+    "nombre": "ROYAL AFFAIR PALETTE",
+    "precio": 5000,
+    "stock": 1,
+    "img": "../img/productos/buclera.png",
+    "img1": "../img/productos/proteina.png"
   },
   {
     "id": 5,
-    "marca": "LIDHERMA ",
-    "rubro": "CUIDADOSPIEL",
-    "subRubro": "A",
-    "nombre": "CELLACTIVE",
-    "precio": 2000,
-    "stock": 2,
-    "img": "../img/productos/cellactive.png"
+    "marca": "RUDE BEAUTY",
+    "rubro": "MAKEUP",
+    "subRubro": "OJOS",
+    "nombre": "ANIME MANGA - LIBRO 2",
+    "precio": 6000,
+    "stock": 1,
+    "img": "../img/productos/cellactive.png",
+    "img1": "../img/productos/proteina.png"
   },
   {
     "id": 6,
-    "marca": "MAYBELLINE ",
+    "marca": "RUDE BEAUTY",
     "rubro": "MAKEUP",
-    "subRubro": "LABIOS",
-    "nombre": "TAPA OJERAS",
-    "precio": 2500,
-    "stock": 2,
-    "img": "../img/productos/tapaojeras.jpg"
+    "subRubro": "OJOS",
+    "nombre": "BLACKJACK 21 EYESHADOWS - BAD GIRL",
+    "precio": 6000,
+    "stock": 1,
+    "img": "../img/productos/tapaojeras.jpg",
+    "img1": "../img/productos/proteina.png"
   },
   {
     "id": 7,
-    "marca": "FINE",
-    "rubro": "CUIDADOSPIEL",
-    "subRubro": "B",
-    "nombre": "FINE POWER",
-    "precio": 5500,
+    "marca": "RUDE BEAUTY",
+    "rubro": "MAKEUP",
+    "subRubro": "OJOS",
+    "nombre": "BLACKJACK 21 EYESHADOWS - TOUGH GIRL",
+    "precio": 6000,
     "stock": 2,
-    "img": "../img/productos/power.png"
+    "img": "../img/productos/power.png",
+    "img1": "../img/productos/proteina.png"
   },
   {
     "id": 8,
-    "marca": "LIDHERMA",
-    "rubro": "CUIDADOSPIEL",
-    "subRubro": "C",
-    "nombre": "ANTI-AGE",
-    "precio": 1500,
-    "stock": 2,
-    "img": "../img/productos/antiage.png"
+    "marca": "RUDE BEAUTY",
+    "rubro": "MAKEUP",
+    "subRubro": "OJOS",
+    "nombre": "28 EXCUSES EYESHADOW PALETTE - LEO SHIMER",
+    "precio": 6000,
+    "stock": 1,
+    "img": "../img/productos/antiage.png",
+    "img1": "../img/productos/power.png"
   },
   {
     "id": 9,
-    "marca": "ROBY ",
-    "rubro": "PEINADO",
-    "subRubro": "AB",
-    "nombre": "FIJADOR",
-    "precio": 3500,
-    "stock": 2,
-    "img": "../img/productos/fijador.jpg"
+    "marca": "RUDE BEAUTY ",
+    "rubro": "MAKEUP",
+    "subRubro": "OJOS",
+    "nombre": "CITY OF NEON LIGHTS",
+    "precio": 6000,
+    "stock": 1,
+    "img": "../img/productos/fijador.jpg",
+    "img1": "../img/productos/proteina.png"
   },
   {
     "id": 10,
-    "marca": "FINE ",
-    "rubro": "CUIDADOSPIEL",
-    "subRubro": "A",
-    "nombre": "FINE SCULPT",
-    "precio": 5000,
-    "stock": 2,
-    "img": "../img/productos/fine_sculpt.png"
+    "marca": "LACA ",
+    "rubro": "MAKEUP",
+    "subRubro": "OJOS",
+    "nombre": "DELINEADOR EN GEL COMPACTO NEGRO",
+    "precio": 1550,
+    "stock": 1,
+    "img": "../img/productos/fine_sculpt.png",
+    "img1": "../img/productos/fijador.jpg"
   },
   {
     "id": 11,
-    "marca": "REMINGTON",
-    "rubro": "PEINADO",
-    "subRubro": "BC",
-    "nombre": "PLANCHITA",
-    "precio": 5500,
-    "stock": 2,
-    "img": "../img/productos/planchita.png"
+    "marca": "LACA",
+    "rubro": "DERMOCOSMETICA",
+    "subRubro": "CORPORAL",
+    "nombre": "BRUMA INTEGRAL CON CAFEÍNA Y ÁRNICA",
+    "precio": 1320,
+    "stock": 1,
+    "img": "../img/productos/planchita.png",
+    "img1": "../img/productos/proteina.png"
+  },{
+    "id": 12,
+    "marca": "LACA",
+    "rubro": "DERMOCOSMETICA",
+    "subRubro": "FACIAL",
+    "nombre": "ESPECÍFICO BOLSAS",
+    "precio": 1850,
+    "stock": 1,
+    "img": "../img/productos/planchita.png",
+    "img1": "../img/productos/proteina.png"
   }
 ]

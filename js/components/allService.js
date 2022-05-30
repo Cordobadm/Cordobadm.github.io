@@ -16,7 +16,9 @@ function addService(arrayServ) {
       <div id="cardService" class= "${e.rubro} col-6 col-md-4 col-lg-3"> 
       <div class="item-rounded">
       <div class="image">
-        <img src="${e.img}">
+        <a target="_blank" href="${e.img}">
+          <img src="${e.img}">
+        </a>
       </div>
         <h6 class="card-title">${e.nombre}</h6>
         <h4>Precio: $<span>${e.precio}</span></h4>

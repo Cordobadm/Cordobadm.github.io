@@ -35,6 +35,10 @@
   align-self: center;
 }
 
+.swiper{
+  padding: 0px 10px 0px 10px;
+}
+
 .swiper-informacion img {
   padding-top: 1rem;
   width: 30%;
