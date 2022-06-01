@@ -115,6 +115,9 @@
   height: auto;
 }
 
+#carousel-image-product img{
+filter: grayscale(0%);
+}
 
 /* The Close Button */
 .close {

@@ -93,12 +93,11 @@
 }
 
 /* SUB RUBRO */
-#makeup {
-  display: none;
-}
-
+#makeup,
 #dermocosmetica {
   display: none;
+  background: rgba(128 114 150);
+  color: white;
 }
 
 @media screen and (max-width: 720px) {
@@ -109,11 +108,15 @@
     word-wrap: break-word;
   }
 
-  #cardService{
+  #cardService {
     padding: 10px;
+  }
+
+  .form-select{
+    width: 108px;
   }
 }
 
-#productosInicio .card{
+#productosInicio .card {
   padding: 15px;
 }

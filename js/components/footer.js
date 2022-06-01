@@ -14,9 +14,7 @@ $('#footer-principal').append(`
           <h5>Productos</h5>
           <li><hr class="dropdown-divider"></li>
             <ul class="lista-footer">
-                <li><a href="./productos.html">MakeUp</a></li>
-                <li><a href="./productos.html">Peinado</a></li>
-                <li><a href="./productos.html">Salud</a></li> 
+                <li><a href="./productos.html">Todos los productos</a></li>
             </ul>
         </div>
 
@@ -44,7 +42,7 @@ $('#footer-principal').append(`
                 <img src="../img/iconos/iconoWhatsapp.png" alt="imagen whatsapp">+543813846221</a>
               </li>
               <li>
-                <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">
+                <a href="mailto:magnolia.healthybeauty@gmail.com" target="_blank">
                 <img src="../img/iconos/iconoGmail.png" alt="imagen gmail">magnolia.healthybeauty@gmail.com</a>
               </li>
               <li>
@@ -57,3 +55,5 @@ $('#footer-principal').append(`
       </div>
     </div>
   `)
+
+  

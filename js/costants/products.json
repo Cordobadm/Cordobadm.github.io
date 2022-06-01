@@ -8,8 +8,8 @@
     "nombre": "BEAUTIFUL AND BRONZE BRUSH SET",
     "precio": 6000,
     "stock": 2,
-    "img": "../img/productos/UNDAUNTEDBLUSHPALLETE1.png",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/BEAUTIFULANDBRONZEBRUSHSET.png",
+    "img1": "../img/productos/BEAUTIFULANDBRONZEBRUSHSET.png"
   },
   {
     "id": 1,
@@ -19,8 +19,8 @@
     "nombre": "SET DE 12 BROCHAS",
     "precio": 8000,
     "stock": 9,
-    "img": "../img/productos/CITYOFNEONLIGHTS.png",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/SETDE12BROCHAS.png",
+    "img1": "../img/productos/SETDE12BROCHAS.png"
   },{
     "id": 2,
     "marca": "RUDE COSMETICS",
@@ -73,8 +73,8 @@
     "nombre": "BLACKJACK 21 EYESHADOWS - TOUGH GIRL",
     "precio": 6000,
     "stock": 2,
-    "img": "../img/productos/CITYOFNEONLIGHTS.png",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/BLACKJACK21EYESHADOWS-TOUGHGIRL.png",
+    "img1": "../img/productos/BLACKJACK21EYESHADOWS-TOUGHGIRL1.png"
   },
   {
     "id": 8,
@@ -84,8 +84,8 @@
     "nombre": "28 EXCUSES EYESHADOW PALETTE - LEO SHIMER",
     "precio": 6000,
     "stock": 1,
-    "img": "../img/productos/CITYOFNEONLIGHTS.png",
-    "img1": "../img/productos/power.png"
+    "img": "../img/productos/28EXCUSESEYESHADOWPALETTE-LEOSHIMER.png",
+    "img1": "../img/productos/28EXCUSESEYESHADOWPALETTE-LEOSHIMER.png"
   },
   {
     "id": 9,
@@ -106,8 +106,8 @@
     "nombre": "DELINEADOR EN GEL COMPACTO NEGRO",
     "precio": 1550,
     "stock": 1,
-    "img": "../img/productos/fine_sculpt.png",
-    "img1": "../img/productos/fijador.jpg"
+    "img": "../img/productos/DELINEADORENGELCOMPACTONEGRO.png",
+    "img1": "../img/productos/DELINEADORENGELCOMPACTONEGRO1.png"
   },
   {
     "id": 11,
@@ -117,8 +117,8 @@
     "nombre": "BRUMA INTEGRAL CON CAFEÍNA Y ÁRNICA",
     "precio": 1320,
     "stock": 1,
-    "img": "../img/productos/planchita.png",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/BRUMAINTEGRALCONCAFEINAYARNICA.png",
+    "img1": "../img/productos/BRUMAINTEGRALCONCAFEINAYARNICA1.png"
   },{
     "id": 12,
     "marca": "LACA",
@@ -127,7 +127,7 @@
     "nombre": "ESPECÍFICO BOLSAS",
     "precio": 1850,
     "stock": 1,
-    "img": "../img/productos/planchita.png",
-    "img1": "../img/productos/proteina.png"
+    "img": "../img/productos/ESPECIFICOBOLSAS.png",
+    "img1": "../img/productos/ESPECIFICOBOLSAS1.png"
   }
 ]

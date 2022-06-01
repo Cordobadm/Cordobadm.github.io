@@ -17,7 +17,7 @@ function agregarProductosAlhtml(array) {
     <div class="swiper-slide card">
       <div class= "card-content">
         <div class="image"> 
-          <a target="_blank" href="${e.img}">
+          <a target="_top" href="${e.img}">
             <img src="${e.img1}">
           </a>
         </div>
